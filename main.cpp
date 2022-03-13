@@ -28,8 +28,8 @@ int main()
     BITMAP *minus_button = NULL;
 
     buffer = create_bitmap(640, 480);
-    plus_button = load_bitmap("plus.bmp", 0);
-    minus_button = load_bitmap("minus.bmp", 0);
+    plus_button = load_bitmap("assets/plus.bmp", 0);
+    minus_button = load_bitmap("assets/minus.bmp", 0);
     clear_to_color(buffer, makecol(255, 255, 255));
 
     show_mouse(screen);
